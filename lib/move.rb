@@ -13,4 +13,5 @@ end
 
 def move(board,input,char="X")
   board[input] = char
+  board
 end
